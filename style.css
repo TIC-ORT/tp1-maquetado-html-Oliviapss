@@ -1,0 +1,24 @@
+*{ margin:0; padding: 0; box-sizing: border-box;}
+
+.top{
+   background-color: rgb(186, 18, 18) ;
+   width: 100%;
+   height: 40vh;
+   padding: 15px;
+   
+
+
+    .botton { 
+    height: 15v;
+    width: 40%;
+    color: yellow;
+    align-items: center;
+    font-display: flex ;
+   }
+}
+
+.middle{ 
+    background-color: rgb(157, 213, 232) ;
+    width: 100%;
+    height: 40vh;
+} 
