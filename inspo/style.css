@@ -41,7 +41,7 @@ body{
 }
 
 .middle{
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     gap: 1em;
