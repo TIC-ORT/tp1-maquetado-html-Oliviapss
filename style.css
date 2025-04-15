@@ -88,46 +88,55 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 5vh;
+        
+    
         
 
         .cuadrado {
         background-color: rgb(238, 115, 115);
         width: 18vh;
         height: 18vh;
+        margin-top: 4vh;
         }
         
         .cuadrado_one {
         background-color: rgb(129, 189, 193);
         width: 18vh;
         height: 18vh;
+        margin-top: 4vh;
         }
 
         .cuadrado_two {
             background-color: rgb(219, 182, 96);
             width: 18vh;
             height: 18vh;
+            margin-top: 4vh;
+        }
+
+        .card-descriptions {
+            display: flex;
+            justify-content: center;
+            margin-top: 1vh;
         }
     }
-    .rayas {
-        .rayita{}
-
-        .rayita_one{}
-
-        .rayita_two{}
-
-        .rayita_tree{}
-
-        .rayita_forth{}
+        .description {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
         
-        .rayita_cinc {}
-            
-        .rayita_set{}
-            
-        .rayita_huif{}            
+        }
         
-        .rayita_neuf {}
+        .rayita {
+            width: 8vh;
+            height: 1vh;
+            background-color: #a22323;
+        }
+        
+        .rayita_one {
+            width: 5vh;
+            height: 1vh;
+            background-color: #ba1c1c;
+        }
     }
-
     
-    }
