@@ -70,7 +70,28 @@
     width: 20vh;
     height: 20vh;
     margin-left: 12vh;
+    
+.dentro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+
+.linea_cuadrado {
+        width: 12vh;
+        height: 1vh;
+        background-color: rgb(242, 227, 227);
     }
+
+.cuadrado_cuadrado {
+        width: 2vh;
+        height: 2vh;
+        background-color: white;
+    }
+}
+}
+}
 
 .titulos {
     display: flex;
@@ -108,7 +129,7 @@
     background-color: azure;
     }
 }
-}
+
 
 .bottom {
     background-color: rgb(247, 247, 247);
@@ -131,7 +152,35 @@
     width: 18vh;
     height: 18vh;
     margin-top: 4vh;
+    
+.interna {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 3vh;
+    margin-top: 3vh;
+    gap: 1.5vh;
+    
+.linea_one {
+        width: 12vh;
+        height: 2vh;
+        background-color: rgba(210, 68, 20, 0.8); 
     }
+
+.linea_two {
+        width: 12vh;
+        height: 0.6vh;
+        background-color: rgba(222, 220, 220, 0.8); 
+    }
+
+.linea_cero {
+        width: 8vh;
+        height: 0.6vh;
+        background-color: rgba(237, 231, 230, 0.8); 
+    }
+}
+}
 
 .cuadrado_one {
     background-color: rgb(129, 189, 193);
